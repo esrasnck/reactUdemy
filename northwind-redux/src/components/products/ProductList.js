@@ -46,7 +46,7 @@ alertify.success(product.productName + " sepete eklendi.")
                 <td>{product.unitPrice}</td>
                 <td>{product.quantityPerUnit}</td>
                 <td>{product.unitsInStock}</td>
-                <td><Button background-color='green' onClick={()=>this.addToCart(product)}> Sepete Ekle</Button></td>
+                <td><Button color="success" onClick={()=>this.addToCart(product)}> Sepete Ekle</Button></td>
               </tr>
             ))}
           </tbody>

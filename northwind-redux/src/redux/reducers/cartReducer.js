@@ -10,22 +10,25 @@ export default function cartReducer(state = initialState.cart, action) {
       );
       if (addedItem) {
         var newState = state.map((cartItem) => {
-         
           if (cartItem.product.id === action.payload.product.id) {
             return Object.assign({}, addedItem, {
               quantity: addedItem.quantity + 1,
             }); // ilk parantez kopyala..addedItem parametre.
-           
           }
-          console.log(cartItem)
+          console.log(cartItem);
           return cartItem;
         });
-        console.log(newState)
+        console.log(newState);
         return newState;
       } else {
         return [...state, { ...action.payload }]; // state'in kopyasını al. ve o state action ile gelen payload'u ekle. burası çokomelli
       }
 
+    case actionTypes.REMOVE_FROM_CART:
+      const newState2 = state.filter(
+        cartItem => cartItem.product.id !== action.payload.id
+      );
+      return newState2;
     default:
       return state;
   }
