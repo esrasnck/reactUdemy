@@ -3,25 +3,25 @@
     {
       "id": 1,
       "categoryId": 2,
-      "productName": "Chai",
+      "productName": "",
       "quantityPerUnit": "48 - 6 oz jars",
-      "unitPrice": "24",
+      "unitPrice": "30",
       "unitsInStock": 53
     },
     {
       "id": 2,
-      "categoryId": 1,
+      "categoryId": 7,
       "productName": "Chang",
-      "quantityPerUnit": "24 - 12 oz bottles",
-      "unitPrice": "21",
-      "unitsInStock": 17
+      "quantityPerUnit": "25 - 12 oz bottles",
+      "unitPrice": "25",
+      "unitsInStock": "18"
     },
     {
       "id": 4,
       "categoryId": 1,
       "productName": "Chef Anton's Cajun Seasoning",
       "quantityPerUnit": "48 - 6 oz jars",
-      "unitPrice": "222",
+      "unitPrice": "123",
       "unitsInStock": 53
     },
     {
@@ -615,6 +615,40 @@
       "quantityPerUnit": "1",
       "unitsInStock": "2",
       "id": 78
+    },
+    {
+      "productName": "bardak",
+      "unitPrice": "25",
+      "quantityPerUnit": "25 - 12 oz bottles",
+      "unitsInStock": "18",
+      "categoryId": 6,
+      "id": 79
+    },
+    {
+      "productName": "chai",
+      "unitPrice": "25",
+      "quantityPerUnit": "25 - 12 oz bottles",
+      "unitsInStock": "18",
+      "categoryId": 2,
+      "id": 80
+    },
+    {
+      "productName": "chai",
+      "id": 81
+    },
+    {
+      "quantityPerUnit": "25 - 12 oz bottles",
+      "unitsInStock": "18",
+      "categoryId": 1,
+      "id": 82
+    },
+    {
+      "unitPrice": "25",
+      "productName": "BİTTİ",
+      "quantityPerUnit": "25 - 12 oz bottles",
+      "unitsInStock": "18",
+      "categoryId": 2,
+      "id": 83
     }
   ],
   "categories": [
